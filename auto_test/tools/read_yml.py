@@ -8,7 +8,7 @@ detail = {}
 
 class PyrunConfig:
     def __init__(self):
-        with open(r'/Users/stephen/Desktop/git/Python_learning/auto_test/cfg/config.yml', mode='r+',
+        with open(r'D:\git\Python_learning\auto_test\cfg\config.yml', mode='r+',
                   encoding='gbk') as f:
             config = yaml.full_load(f)
         global data_source
