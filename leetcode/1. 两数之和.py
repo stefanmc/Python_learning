@@ -23,7 +23,7 @@ from typing import List
 # print(result)
 
 
-class Solution:
+class Solution():
     def twoSum(self, nums: list, target: int) -> list:
         dct = {}
         for i,n in enumerate(nums):

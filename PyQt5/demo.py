@@ -18,8 +18,6 @@ class MainDialog(QDialog):
 
         r = requests.get("http://t.weather.sojson.com/api/weather/city/{}".format(cityCode))
 
-        # print(r.json())
-
         if r.json().get('status') == 200:
             weatherMsg = '城市：{}\n日期：{}\n天气：{}\nPM 2.5：{} {}\n温度：{}\n湿度：{}\n风力：{}\n\n{}'.format(
                 r.json()['cityInfo']['city'],
@@ -46,7 +44,6 @@ class MainDialog(QDialog):
 
     def clearText(self):
         self.ui.textEdit.clear()
-
 
 if __name__ == '__main__':
     myapp = QApplication(sys.argv)

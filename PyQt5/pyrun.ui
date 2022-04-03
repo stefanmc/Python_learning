@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>789</width>
     <height>600</height>
    </rect>
   </property>
@@ -14,50 +14,11 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QRadioButton" name="radioButton">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>50</y>
-      <width>89</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_2">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>80</y>
-      <width>89</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>50</y>
-      <width>121</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>请选择对应的DB2环境</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>130</y>
+      <x>20</x>
+      <y>20</y>
       <width>111</width>
       <height>16</height>
      </rect>
@@ -72,8 +33,8 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>160</y>
+      <x>20</x>
+      <y>50</y>
       <width>111</width>
       <height>16</height>
      </rect>
@@ -85,8 +46,8 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>130</y>
+      <x>130</x>
+      <y>20</y>
       <width>161</width>
       <height>20</height>
      </rect>
@@ -95,8 +56,8 @@
    <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>160</y>
+      <x>130</x>
+      <y>50</y>
       <width>161</width>
       <height>20</height>
      </rect>
@@ -105,10 +66,10 @@
    <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>190</y>
-      <width>171</width>
-      <height>16</height>
+      <x>130</x>
+      <y>110</y>
+      <width>143</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -118,32 +79,19 @@
    <widget class="QTextBrowser" name="textBrowser">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>20</x>
       <y>240</y>
-      <width>731</width>
+      <width>461</width>
       <height>301</height>
      </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>650</x>
-      <y>50</y>
-      <width>111</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>第1步：数据准备</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>650</x>
-      <y>90</y>
-      <width>111</width>
+      <x>21</x>
+      <y>110</y>
+      <width>98</width>
       <height>23</height>
      </rect>
     </property>
@@ -154,9 +102,9 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>650</x>
-      <y>130</y>
-      <width>111</width>
+      <x>21</x>
+      <y>139</y>
+      <width>98</width>
       <height>23</height>
      </rect>
     </property>
@@ -164,56 +112,30 @@
      <string>第3步：发起查询</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>81</y>
+      <width>98</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>第1步：数据准备</string>
+    </property>
+   </widget>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>650</x>
-      <y>170</y>
-      <width>111</width>
+      <x>21</x>
+      <y>168</y>
+      <width>98</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
      <string>第4步：生成数据</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_5">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>50</y>
-      <width>111</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>查询系统状态</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>50</y>
-      <width>241</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>主库DB2配置：1.1.1.1，端口：51000</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>80</y>
-      <width>241</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>备库DB2配置：0.0.0.0，端口：51000</string>
     </property>
    </widget>
   </widget>
@@ -223,7 +145,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>789</width>
      <height>23</height>
     </rect>
    </property>
@@ -238,9 +160,6 @@
      <string>工具</string>
     </property>
     <addaction name="action"/>
-    <addaction name="action_2"/>
-    <addaction name="action_3"/>
-    <addaction name="action_4"/>
     <addaction name="separator"/>
    </widget>
    <widget class="QMenu" name="menu_3">
