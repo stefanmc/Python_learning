@@ -18,7 +18,7 @@ import os
 #     def get_name(self):
 #         return self.name
 #
-#     def color(self, color):
+#     def color(self, color):gggg
 #         d = {}
 #         d[self.name] = color
 #         return d
