@@ -36,6 +36,6 @@ import os
 class A:
     a = 9  #a 就是类A的属性
 
-print(A.__a) #A.a就是调用类属性的方式
-A.__a = 20
-print(A.__a)
+print(A.a) #A.a就是调用类属性的方式
+A.yh = 20
+print(A.yh)

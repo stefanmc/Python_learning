@@ -1,15 +1,7 @@
-dict1 = {
-    "1,3": "9999",
-    "1,4": "test2",
-    "1,5": "test3"}
+list_a = '@029800@311100@204200@050099@399352@399353@399354@395590@398670@396586@396540@399670@395830@399966@397063@002118@004367@004366'
 
-key = list(dict1.keys())
-print(key)
-for i in key:
-    line = i.split(',')[0]
-    col = i.split(',')[1]
-    print(f'line:{line}')
-    print(f'col:{col}')
-
-
-
+list_b = '3333'
+line = list_b.split('@')
+print(tuple(line[1:]))
+# lines = tuple(line[1:])
+# print(lines)
