@@ -13,7 +13,7 @@
 # print(tmp)
 #方法二
 tmp_lst = [1,2,3,4,5,6,7,8,9,0]
-tmp = tmp_lst.pop(0)  #删除后会改变原来的list
+tmp = tmp_lst.pop(0)  #删除后会改变原来的list  执行pop后返回的是删除的那个元素
 tmp_lst.append(tmp)
 
 # print(tmp_lst)
