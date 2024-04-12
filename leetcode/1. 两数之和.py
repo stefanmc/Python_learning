@@ -27,7 +27,9 @@ class Solution():
     def twoSum(self, nums: list, target: int) -> list:
         dct = {}
         for i,n in enumerate(nums):
+            print(i,n)
             cp = target - n
+            print("cp:",cp)
             if cp in dct:
                 return [dct[cp],i]
             else:
@@ -38,8 +40,5 @@ nums = [2,15,11,7]
 target = 9
 result = solution.twoSum(nums,target)
 print(result)
-
-
-test
 
 
